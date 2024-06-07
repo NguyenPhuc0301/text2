@@ -73,7 +73,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2.5"
+      "+=3"
     )
     .to(
       ".two",
@@ -96,7 +96,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2"
+      "+=3"
     )
     .from(".four", 0.7, {
       scale: 0.2,
@@ -125,12 +125,12 @@ const animationTimeline = () => {
         opacity: 0,
         y: -150
       },
-      "+=0.7"
+      "+=2"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-1", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-2", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
@@ -138,9 +138,9 @@ const animationTimeline = () => {
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-3", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-4", 0.7, ideaTextTransLeave, "+=3")
     .from(
       ".idea-5",
       0.7,
@@ -152,7 +152,7 @@ const animationTimeline = () => {
         z: 10,
         opacity: 0
       },
-      "+=0.5"
+      "+=1"
     )
     .to(
       ".idea-5 .smiley",
@@ -161,7 +161,7 @@ const animationTimeline = () => {
         rotation: 90,
         x: 8
       },
-      "+=0.4"
+      "+=1"
     )
     .to(
       ".idea-5",
@@ -170,7 +170,7 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0
       },
-      "+=2"
+      "+=3"
     )
     .staggerFrom(
       ".idea-6 span",
@@ -193,7 +193,7 @@ const animationTimeline = () => {
         ease: Expo.easeOut
       },
       0.2,
-      "+=1"
+      "+=3"
     )
     .staggerFromTo(
       ".baloons img",
@@ -289,7 +289,7 @@ const animationTimeline = () => {
       {
         rotation: 90
       },
-      "+=1"
+      "+=3"
     );
 
   // tl.seek("currentStep");
